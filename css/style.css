@@ -936,6 +936,11 @@ a:hover {
   .carousel-indicators {
     bottom: -50px;
   }
+
+
+  .socials .ico-circle {
+    margin: 0;
+  }
 }
 
 .smm a img{
