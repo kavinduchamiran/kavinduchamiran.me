@@ -917,6 +917,36 @@ a:hover {
   float: right;
 }
 
+.carousel-indicators li {
+  background-color: #cde1f8;
+  width: 18px;
+  height: 7px
+}
+
+.carousel-indicators .active {
+  background-color: black;
+  width: 25px;
+}
+
+@media only screen and (max-width: 766px) {
+  .blog-box {
+    margin-top: 30px;
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+}
+
+.smm a img{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.smm a img:hover{
+  background-color: red;
+}
+
 /*======================================
 //--//-->   BLOG-SINGLE
 ======================================*/
