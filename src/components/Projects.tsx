@@ -3,6 +3,15 @@ import {Badge} from './ui/badge';
 export default function Projects() {
   const projects = [
     {
+      title: "HackerRank Solutions",
+      description: "My attempts at solving HackerRank problems.",
+      tags: ["Java", "Data Structures", "Algorithms"],
+      link: {
+        description: "Open GitHub repo",
+        link: "https://github.com/kavinduchamiran/HackerRankSolutions"
+      }
+    },
+    {
       title: "PostHarbor",
       description: "A safe and organized place for managing and posting social media content.",
       tags: ["Java", "Spring Boot", "Hibernate"],
@@ -32,7 +41,7 @@ export default function Projects() {
       tags: ["Python", "Pandas", "TensorFlow"],
       link: {
         description: "Open GitHub repo",
-        link: "https://github.com/kavinduchamiran/fyp2"
+        link: "https://github.com/kavinduchamiran/FinalYearProject"
       }
     },
     {

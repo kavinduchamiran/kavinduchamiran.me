@@ -5,11 +5,11 @@ export default function Skills() {
   const skills = [
     {
       title: "Programming Languages",
-      keywords: ["Java", "Python", "JavaScript", "Go"]
+      keywords: ["Java", "Python", "JavaScript"]
     },
     {
       title: "Frameworks",
-      keywords: ["ReactJS", "Spring Boot", "Django"]
+      keywords: ["Spring Framework", "Spring Boot", "Django", "React"]
     },
     {
       title: "Cloud Computing",
@@ -17,10 +17,10 @@ export default function Skills() {
     },
     {
       title: "Container Orchestration",
-      keywords: ["Kubernetes", "Helm", "Docker"]
+      keywords: ["Docker", "Kubernetes", "Helm"]
     },
     {
-      title: "Infrastructure",
+      title: "Infrastructure Management",
       keywords: ["Ansible", "Terraform", "Linux"]
     },
     {
@@ -29,7 +29,7 @@ export default function Skills() {
     },
     {
       title: "Source Control",
-      keywords: ["Git", "GitHub", "Maven", "Continuous Integration (CI)", "Continuous Delivery (CD)", "Agile", "Scrum"]
+      keywords: ["Git", "GitHub", "Maven", "Jenkins", "Continuous Integration (CI)", "Continuous Delivery (CD)", "Agile", "Scrum"]
     },
     {
       title: "Soft Skills",
